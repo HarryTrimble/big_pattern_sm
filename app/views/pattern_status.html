@@ -1,0 +1,194 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Statuses for design patterns
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-one-half">
+
+      <h1 class="heading-large">
+        Design pattern status
+      </h1>
+
+      <p class="lede">
+        Evidence required to make or change a design pattern.
+      </p>
+
+    </div>
+  </div>
+
+  <br>
+
+  <!-- first row -->
+  <div class="grid-row">
+    <div class="column-quarter">
+      <h2 class="bold-medium" style="color:#ffffff;">One quarter</h2>
+    </div>
+    <div class="column-quarter">
+      <div class="pattern-status-tag experimental">
+        <p>
+          EXPERIMENTAL
+        </p>
+      </div>
+    </div>
+    <div class="column-quarter">
+      <div class="pattern-status-tag likely-to-change">
+        <p>
+          LIKELY TO CHANGE
+        </p>
+      </div>
+    </div>
+    <div class="column-quarter">
+      <div class="pattern-status-tag tried-and-tested">
+        <p>
+          TRIED AND TESTED
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  
+  <!-- GOV.UK Elements -->
+  <div class="grid-row">
+    <div class="column-quarter">
+      <h2 class="bold-medium">GOV.UK Elements</h2>
+    </div>
+    <!-- Experimental -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          Tested with users in single service
+        </p>
+      </div>
+    </div>
+    <!-- Likely to change -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          under discussion
+        </p>
+      </div>
+    </div>
+    <!-- Tried and tested -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          Easy and quick to reuse,
+          100+ hours of usability testing,
+          used in multiple service
+        </p>
+      </div>
+    </div>
+  </div>
+
+ <hr class="pattern-divider">
+  
+  <!-- Page patterns -->
+  <div class="grid-row">
+    <div class="column-quarter">
+      <h2 class="bold-medium">Page patterns</h2>
+    </div>
+    <!-- Experimental -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          something
+        </p>
+      </div>
+    </div>
+    <!-- Likely to change -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          under discussion
+        </p>
+      </div>
+    </div>
+    <!-- Tried and tested -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          Easy and quick to reuse,
+          included in prototyping kit
+        </p>
+      </div>
+    </div>
+  </div>
+
+ <hr class="pattern-divider">
+  
+  <!-- content patterns -->
+  <div class="grid-row">
+    <div class="column-quarter">
+      <h2 class="bold-medium">Content patterns</h2>
+    </div>
+    <!-- Experimental -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          something
+        </p>
+      </div>
+    </div>
+    <!-- Likely to change -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          under discussion
+        </p>
+      </div>
+    </div>
+    <!-- Tried and tested -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          Easy and quick to reuse,
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="pattern-divider">
+
+  <!-- larger patterns -->
+  <div class="grid-row">
+    <div class="column-quarter">
+      <h2 class="bold-medium">Larger patterns</h2>
+    </div>
+    <!-- Experimental -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          Repeated need across government, 
+          included in multiple services in Alpha and Beta
+        </p>
+      </div>
+    </div>
+    <!-- Likely to change -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          discussion
+        </p>
+      </div>
+    </div>
+    <!-- Tried and tested -->
+    <div class="column-quarter">
+      <div>
+        <p>
+          Easy and quick to reuse, 
+          used in multiple Live services, 
+          data showing it saves users time, 
+          data showing it save money across government<br>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</main>
+{% endblock %}

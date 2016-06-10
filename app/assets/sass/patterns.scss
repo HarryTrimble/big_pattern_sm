@@ -1,0 +1,35 @@
+// GOV.UK front end toolkit dependencies
+@import "colours";
+@import "shims";
+@import "measurements";
+@import "typography";
+@import "css3";
+@import "url-helpers";
+
+// Patterns
+@import 'patterns/check-your-answers';
+
+
+// pattern status styling
+.pattern-status-tag p {
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 5px 0 3px 0
+}
+
+.experimental p {
+	background: $alpha-colour;
+}
+
+.likely-to-change p {
+	background: $beta-colour;
+}
+
+.tried-and-tested p {
+	background: $live-colour;
+}
+
+.pattern-divider {
+	margin-top: 12px;
+}
